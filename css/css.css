@@ -1,0 +1,146 @@
+body{
+    background-color: rgb(253, 244, 229);
+}
+.background {
+    background-image: url(../imagenews/sky-g72b8c7edd_19202.jpg);
+    background-size: 150% 150%;
+    margin: auto;
+    border-radius: 30px;
+}
+h1{
+    color: rgb(74, 21, 112);
+    text-shadow: 2px 0 white, -2px 0 white, 0 2px white, 0 -2px white,
+    1px 1px white, -1px -1px white, 1px -1px white, -1px 1px white;
+    text-align: left;
+    font-family: harrington;
+    font-size: 100px;
+    margin-left: 30px;
+    margin-top: auto;
+    margin-bottom: auto;  
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.banner {
+    background-color: rgb(171, 117, 207);
+    background-size: auto;
+    display: block;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.banner table {
+    font-size: x-large;
+    font-family: century gothic;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 3px;
+    width: 34%
+}
+td {
+    text-shadow: 1px 0 3px white, -1px 0 3px white, 0 1px 3px white, 0 -1px 3px white,
+    0.5px 0.5px 1.5px white, -0.5px -0.5px 1.5px white, 0.5px -0.5px 1.5px white, -0.5px 0.5px 1.5px white;
+}
+a {
+    text-decoration: none;
+    color: rgb(135, 81, 173);
+}
+.divh1 {
+    margin: 50px;
+    margin-left: 330px;
+    margin-right: 330px;
+    background-color: rgb(213, 195, 225);
+    border-radius: 50px;
+    border: 10px rgb(148, 107, 177);
+    border-style: double;
+}
+h2 {
+    font-family: centaur;
+    color: rgb(74, 21, 112);
+    font-size: 60px;
+    text-indent: 45px;
+    margin-top: 20px;
+}
+.divh1 p {
+    font-family: gabriola;
+    font-size: x-large;
+    text-align: justify;
+    line-height: 1em;
+    margin-top: -40px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-bottom: 10px;
+    
+}
+.divh2 {
+    margin: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: rgb(213, 195, 225);
+    border-radius: 50px;
+    border: 10px rgb(148, 107, 177);
+    border-style: double;
+}
+.column img {
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 35px;
+    padding: 0px;
+    margin-top: -40px;
+    border-style: solid;
+    border-color: rgb(148, 107, 177);
+    background-color: rgb(40, 11, 60);
+  }
+  .row {
+    margin-left: 70px;
+    margin-right: 20px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+ .listap ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: 160px;
+    margin-top: 0px;
+ }
+ .listap li {
+    font-family: gabriola;
+    text-shadow: 1px 0 3px white, -1px 0 3px white, 0 1px 3px white, 0 -1px 3px white,
+    0.5px 0.5px 1.5px white, -0.5px -0.5px 1.5px white, 0.5px -0.5px 1.5px white, -0.5px 0.5px 1.5px white;
+    font-size: 35px;
+    border: 1px;
+    float: left;
+    display: block;
+    color: rgb(74, 21, 112);
+    text-align: center;
+    padding-bottom: 16px;
+    margin-top: -12px;
+    }
+.divh3{
+    margin: 50px;
+    margin-left: 330px;
+    margin-right: 330px;
+    background-color: rgb(213, 195, 225);
+    border-radius: 50px;
+    border: 10px rgb(148, 107, 177);
+    border-style: double;
+}
+form {
+    font-family: gabriola;
+    font-size: x-large;
+    margin-top: -50px;
+    margin-left: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+input, textarea {
+    border-color: rgb(148, 107, 177);
+    border-width: 2px;
+}
